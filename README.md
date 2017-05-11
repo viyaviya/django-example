@@ -15,6 +15,25 @@
 
 `clone` 到本地，然后进入到 `djexample` 路径下 
 
+- 创建本地数据库
+
+数据库默认配置如下
+
+```
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'djexample',
+        'USER': '',
+        'PASSWORD': '',
+        'HOST': '127.0.0.1',
+        'PORT': '5432',
+    }
+}
+```
+
+即需要创建 `djexample` 数据库，注意用户和密码，如果你使用的用户和密码，请自行更新配置文件
+
 - 安装应用到的包
 
 `pip install -r requirementx.txt`
