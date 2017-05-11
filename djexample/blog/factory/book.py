@@ -6,7 +6,7 @@ from blog.models import Book
 
 
 class BookFactory(factory.DjangoModelFactory):
-    """Member order factory"""
+    """Book factory"""
 
     name = factory.Faker('word')
     extra_data = factory.Faker('random_string_dict')
