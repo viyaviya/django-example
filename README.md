@@ -6,7 +6,7 @@
 
 - python: 3.5.2
 - django: 1.11.1
-- 数据库：postgresql
+- 数据库：postgresql 9.5.2
 
 
 ## 2 跑起本地服务简单步骤
